@@ -131,7 +131,7 @@ func (j *Job) UpdateJob(ctx *Context) {
 		return
 	}
 
-	outJSONWithCode(ctx.W, successCode, nil)
+	outJSONWithCode(ctx.W, successCode, job)
 }
 
 func (j *Job) GetGroups(ctx *Context) {
