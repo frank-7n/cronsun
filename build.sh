@@ -13,6 +13,12 @@ echo "build file to ./$out"
 
 mkdir -p "$out/conf"
 
+go get github.com/coreos/etcd
+go get github.com/rogpeppe/fastuuid
+go get go.uber.org/zap
+go get golang.org/x/net
+go get gopkg.in/mgo.v2
+
 go build -o ./$out/cronnode ./bin/node/server.go
 check_code
 go build -o ./$out/cronweb ./bin/web/server.go
