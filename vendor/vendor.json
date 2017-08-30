@@ -1,0 +1,963 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "gt4qjONr5JL9rMCJuEznegBkh5o=",
+			"path": "github.com/apex/log",
+			"revision": "0296d6eb16bb28f8a0c55668affcf4876dc269be",
+			"revisionTime": "2017-07-26T18:07:45Z"
+		},
+		{
+			"checksumSHA1": "sQREBJvQYOoW8ihwvdtlFqXVKNw=",
+			"path": "github.com/apex/log/handlers/discard",
+			"revision": "0296d6eb16bb28f8a0c55668affcf4876dc269be",
+			"revisionTime": "2017-07-26T18:07:45Z"
+		},
+		{
+			"checksumSHA1": "rkMrOC6qQhEkDCYmmUErg8qvjGA=",
+			"path": "github.com/apex/log/handlers/json",
+			"revision": "0296d6eb16bb28f8a0c55668affcf4876dc269be",
+			"revisionTime": "2017-07-26T18:07:45Z"
+		},
+		{
+			"checksumSHA1": "AHCiF3VnEqmXyZDeH+z/IGsAtnI=",
+			"path": "github.com/apex/log/handlers/level",
+			"revision": "0296d6eb16bb28f8a0c55668affcf4876dc269be",
+			"revisionTime": "2017-07-26T18:07:45Z"
+		},
+		{
+			"checksumSHA1": "zhtGWHwacYwQegB631vW71LzEZ4=",
+			"path": "github.com/apex/log/handlers/logfmt",
+			"revision": "0296d6eb16bb28f8a0c55668affcf4876dc269be",
+			"revisionTime": "2017-07-26T18:07:45Z"
+		},
+		{
+			"checksumSHA1": "OtLGQzEOzOowOTy9o+19DlOvi0c=",
+			"path": "github.com/apex/log/handlers/memory",
+			"revision": "0296d6eb16bb28f8a0c55668affcf4876dc269be",
+			"revisionTime": "2017-07-26T18:07:45Z"
+		},
+		{
+			"checksumSHA1": "rxQUkWqruIZKpRzdwqrkxfcZvyw=",
+			"path": "github.com/apex/log/handlers/multi",
+			"revision": "0296d6eb16bb28f8a0c55668affcf4876dc269be",
+			"revisionTime": "2017-07-26T18:07:45Z"
+		},
+		{
+			"checksumSHA1": "+urkX0ZY02ty7TvsBsYzcboRxVg=",
+			"path": "github.com/apex/log/handlers/text",
+			"revision": "0296d6eb16bb28f8a0c55668affcf4876dc269be",
+			"revisionTime": "2017-07-26T18:07:45Z"
+		},
+		{
+			"checksumSHA1": "4QnLdmB1kG3N+KlDd1N+G9TWAGQ=",
+			"path": "github.com/beorn7/perks/quantile",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "HlDspvrfA33+zVOgm5mvoiWvRhg=",
+			"path": "github.com/cockroachdb/cmux",
+			"revision": "30d10be492927e2dcae0089c374c455d42414fcb",
+			"revisionTime": "2017-01-10T19:26:07Z"
+		},
+		{
+			"checksumSHA1": "7BC2/27NId9xaPDB5w3nWN2mn9A=",
+			"path": "github.com/coreos/etcd/auth/authpb",
+			"revision": "8df21326f9ed83f18f60ecee6278ff12ad960275",
+			"revisionTime": "2017-08-11T17:15:35Z"
+		},
+		{
+			"checksumSHA1": "1+T3s64i3hz9NXbXz4Mszg2Yl6I=",
+			"path": "github.com/coreos/etcd/client",
+			"revision": "8df21326f9ed83f18f60ecee6278ff12ad960275",
+			"revisionTime": "2017-08-11T17:15:35Z"
+		},
+		{
+			"checksumSHA1": "qmiv3JXsaxjH7iaflgAwUHQzl8s=",
+			"path": "github.com/coreos/etcd/clientv3",
+			"revision": "8df21326f9ed83f18f60ecee6278ff12ad960275",
+			"revisionTime": "2017-08-11T17:15:35Z"
+		},
+		{
+			"checksumSHA1": "FGYrukGZfTwVewNwenpuGJL/KSA=",
+			"path": "github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes",
+			"revision": "8df21326f9ed83f18f60ecee6278ff12ad960275",
+			"revisionTime": "2017-08-11T17:15:35Z"
+		},
+		{
+			"checksumSHA1": "PRdmvuoF1GjqtVLgGB6AxaV7/Pg=",
+			"path": "github.com/coreos/etcd/etcdserver/etcdserverpb",
+			"revision": "8df21326f9ed83f18f60ecee6278ff12ad960275",
+			"revisionTime": "2017-08-11T17:15:35Z"
+		},
+		{
+			"checksumSHA1": "JAkX9DfIBrSe0vUa07xl5cikxVQ=",
+			"path": "github.com/coreos/etcd/mvcc/mvccpb",
+			"revision": "8df21326f9ed83f18f60ecee6278ff12ad960275",
+			"revisionTime": "2017-08-11T17:15:35Z"
+		},
+		{
+			"checksumSHA1": "mKIXx1kDwmVmdIpZ3pJtRBuUKso=",
+			"path": "github.com/coreos/etcd/pkg/pathutil",
+			"revision": "8df21326f9ed83f18f60ecee6278ff12ad960275",
+			"revisionTime": "2017-08-11T17:15:35Z"
+		},
+		{
+			"checksumSHA1": "in4X4M2FFl6+eAXgxdxxSOZi1Vw=",
+			"path": "github.com/coreos/etcd/pkg/srv",
+			"revision": "8df21326f9ed83f18f60ecee6278ff12ad960275",
+			"revisionTime": "2017-08-11T17:15:35Z"
+		},
+		{
+			"checksumSHA1": "gx1gJIMU6T0UNQ0bPZ/drQ8cpCI=",
+			"path": "github.com/coreos/etcd/pkg/types",
+			"revision": "8df21326f9ed83f18f60ecee6278ff12ad960275",
+			"revisionTime": "2017-08-11T17:15:35Z"
+		},
+		{
+			"checksumSHA1": "sp2FkEyaIGiQFOEZCTDkBZgyHOs=",
+			"path": "github.com/coreos/etcd/version",
+			"revision": "8df21326f9ed83f18f60ecee6278ff12ad960275",
+			"revisionTime": "2017-08-11T17:15:35Z"
+		},
+		{
+			"checksumSHA1": "97BsbXOiZ8+Kr+LIuZkQFtSj7H4=",
+			"path": "github.com/coreos/go-semver/semver",
+			"revision": "1817cd4bea52af76542157eeabd74b057d1a199e",
+			"revisionTime": "2017-06-13T09:22:38Z"
+		},
+		{
+			"checksumSHA1": "OFu4xJEIjiI8Suu+j/gabfp+y6Q=",
+			"origin": "github.com/shunfei/cronsun/src/github.com/stretchr/testify/vendor/github.com/davecgh/go-spew/spew",
+			"path": "github.com/davecgh/go-spew/spew",
+			"revision": "890a5c3458b43e6104ff5da8dfa139d013d77544",
+			"revisionTime": "2017-07-05T02:17:15Z"
+		},
+		{
+			"checksumSHA1": "GXOurDGgsLmJs0wounpdWZZRSGw=",
+			"path": "github.com/dgrijalva/jwt-go",
+			"revision": "a539ee1a749a2b895533f979515ac7e6e0f5b650",
+			"revisionTime": "2017-06-08T00:51:49Z"
+		},
+		{
+			"checksumSHA1": "aEU9IPbfuS1PWY2T26gn41y+feA=",
+			"path": "github.com/fatih/color",
+			"revision": "67c513e5729f918f5e69786686770c27141a4490",
+			"revisionTime": "2017-08-04T15:04:06Z"
+		},
+		{
+			"checksumSHA1": "x2Km0Qy3WgJJnV19Zv25VwTJcBM=",
+			"path": "github.com/fsnotify/fsnotify",
+			"revision": "4da3e2cfbabc9f751898f250b49f2439785783a1",
+			"revisionTime": "2017-03-29T04:21:07Z"
+		},
+		{
+			"checksumSHA1": "DB+/DpKJUO7dR+MyQVchJ+yyHoI=",
+			"path": "github.com/go-gomail/gomail",
+			"revision": "81ebce5c23dfd25c6c67194b37d3dd3f338c98b1",
+			"revisionTime": "2016-04-11T21:29:32Z"
+		},
+		{
+			"checksumSHA1": "aUEp6nQansSqG2MTob/Apj48VgM=",
+			"path": "github.com/go-kit/kit/circuitbreaker",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "0x6tKraaJRo//YVEB2FotP2Mhww=",
+			"path": "github.com/go-kit/kit/endpoint",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "CEFNt+vb+jajEc4Guiv3hlfRJt4=",
+			"path": "github.com/go-kit/kit/examples/addsvc/pb",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "R582gP63iIXLVwNlmTeTCI0Fsw8=",
+			"path": "github.com/go-kit/kit/examples/addsvc/pkg/addendpoint",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "f67z6aoSt+DzLLJBhOJ4x9mUU1I=",
+			"path": "github.com/go-kit/kit/examples/addsvc/pkg/addservice",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "ofxV6Oa1I0RK42fgcTzUDxtknzQ=",
+			"path": "github.com/go-kit/kit/examples/addsvc/pkg/addtransport",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "6KNi9q0fY27r9wBoDuZZhsNG3Ug=",
+			"path": "github.com/go-kit/kit/examples/addsvc/thrift/gen-go/addsvc",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "yd0d4si0RYnnwKYvv8r1x1QVgtM=",
+			"path": "github.com/go-kit/kit/examples/profilesvc",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "dAQJi3JaMGPbzWXuzQvMFcqEBwQ=",
+			"path": "github.com/go-kit/kit/examples/shipping/booking",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "OCCvsj2lW/J681T3rCS6k3SvQHc=",
+			"path": "github.com/go-kit/kit/examples/shipping/cargo",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "wB077kc871PbEYdk38Ap5nmJlVA=",
+			"path": "github.com/go-kit/kit/examples/shipping/handling",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "vohIphoWKW8HPFtK8/pnxxNFS50=",
+			"path": "github.com/go-kit/kit/examples/shipping/inmem",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "/UijcZTiB8g7yJ/jhLBzajPXxD4=",
+			"path": "github.com/go-kit/kit/examples/shipping/inspection",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "T8sd+UnYI8QTKk5qF398Cc69sMg=",
+			"path": "github.com/go-kit/kit/examples/shipping/location",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "PbdPSVjorZ1cX5cQe473U/Vg78s=",
+			"path": "github.com/go-kit/kit/examples/shipping/routing",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "CibMAGSXzUMY/DN1NGm431jBFnw=",
+			"path": "github.com/go-kit/kit/examples/shipping/tracking",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "4tNKSxxBJNwyRnTIZmr2nomC/NM=",
+			"path": "github.com/go-kit/kit/examples/shipping/voyage",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "KrIRJ4p3nRze4NcxfgX5+N9+D1M=",
+			"path": "github.com/go-kit/kit/log",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "dB8jcEYUmlFEcK4OvywY+OUK/5I=",
+			"path": "github.com/go-kit/kit/log/deprecated_levels",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "t7aTpDH0h4BZcGU0KkUr14QQG2w=",
+			"path": "github.com/go-kit/kit/log/level",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "g8QJZeWwOsnMZfpe0zimGKouPlw=",
+			"path": "github.com/go-kit/kit/log/term",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "rt/goV5G9VZ+R7feZq/vVXPpWu0=",
+			"path": "github.com/go-kit/kit/metrics",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "d8fWExWJdnsxbPsPuInREvkTvdE=",
+			"path": "github.com/go-kit/kit/metrics/discard",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "HCQErbQbqXQ0LTLnkV+OiBUHcPk=",
+			"path": "github.com/go-kit/kit/metrics/dogstatsd",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "aAi8VDxPFXuZ0HCEnvdpH71tGr8=",
+			"path": "github.com/go-kit/kit/metrics/expvar",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "9eLi8Ek42OhRwQJAnpduF/tV2uk=",
+			"path": "github.com/go-kit/kit/metrics/generic",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "jDNZYItEtvtqnprj0reFXRSkaP4=",
+			"path": "github.com/go-kit/kit/metrics/graphite",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "b+nc1sgSKkHEs7rRaKDsPXghrU0=",
+			"path": "github.com/go-kit/kit/metrics/influx",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "nqjHqtG6eWaipohdW/nM5h51JVE=",
+			"path": "github.com/go-kit/kit/metrics/internal/lv",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "t8CEfM4BLNrBUS+rHuQnLxBN0z4=",
+			"path": "github.com/go-kit/kit/metrics/internal/ratemap",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "hArYy708bvIGnxJIC/Tr/ehkUms=",
+			"path": "github.com/go-kit/kit/metrics/prometheus",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "sMA++PzHFzE5LS53H3Bdhj6o84o=",
+			"path": "github.com/go-kit/kit/metrics/statsd",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "Y78nOtMLKBkjX2K0M/t1RgXnvOA=",
+			"path": "github.com/go-kit/kit/metrics/teststat",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "MZXT+WhGRAWUvcaMy80T5OVPx+c=",
+			"path": "github.com/go-kit/kit/ratelimit",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "/mGkEDiW1wRef5Ke2txDUPzJXkI=",
+			"path": "github.com/go-kit/kit/sd",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "/bkunVx56Xgc0CJytnFxtl685qY=",
+			"path": "github.com/go-kit/kit/sd/consul",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "idceVBLuT18PMWS0APi9BPU5eCY=",
+			"path": "github.com/go-kit/kit/sd/internal/instance",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "u0RJd9Z/ibtniP8mlUsDG1pDusw=",
+			"path": "github.com/go-kit/kit/sd/lb",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "rVl67U4DRWQjuFTTjBPWtXYEHEY=",
+			"path": "github.com/go-kit/kit/tracing/opentracing",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "20M135UJSjYo7/K8UU9FuIaDryE=",
+			"path": "github.com/go-kit/kit/transport/grpc",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "l5omNo8ymnscR3ET5X6ZYl2FGyQ=",
+			"path": "github.com/go-kit/kit/transport/grpc/_grpc_test",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "Jt4kGFxSrf7k86RdYKygXl78K/A=",
+			"path": "github.com/go-kit/kit/transport/grpc/_grpc_test/pb",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "qVNlGKkuj56lWYtY+4wHYmNcdZU=",
+			"path": "github.com/go-kit/kit/transport/http",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "97y+g0cfXrDdg/CKUm8BflODU50=",
+			"path": "github.com/go-kit/kit/transport/httprp",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "FIx/LfpCx7fKlsoTrip1V9J+qKs=",
+			"path": "github.com/go-kit/kit/util/conn",
+			"revision": "7c0038db5f6361f85f612e4154f61e4f6d6a83b2",
+			"revisionTime": "2017-08-07T10:16:07Z"
+		},
+		{
+			"checksumSHA1": "KxX/Drph+byPXBFIXaCZaCOAnrU=",
+			"path": "github.com/go-logfmt/logfmt",
+			"revision": "390ab7935ee28ec6b286364bba9b4dd6410cb3d5",
+			"revisionTime": "2016-11-15T14:25:13Z"
+		},
+		{
+			"checksumSHA1": "j6vhe49MX+dyHR9rU91P6vMx55o=",
+			"path": "github.com/go-stack/stack",
+			"revision": "817915b46b97fd7bb80e8ab6b69f01a53ac3eebf",
+			"revisionTime": "2017-07-24T01:23:01Z"
+		},
+		{
+			"checksumSHA1": "9FASaCbqLfe78iHXUATRSrqk6D0=",
+			"path": "github.com/golang/protobuf/jsonpb",
+			"revision": "1909bc2f63dc92bb931deace8b8312c4db72d12f",
+			"revisionTime": "2017-08-08T02:16:21Z"
+		},
+		{
+			"checksumSHA1": "yqF125xVSkmfLpIVGrLlfE05IUk=",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "1909bc2f63dc92bb931deace8b8312c4db72d12f",
+			"revisionTime": "2017-08-08T02:16:21Z"
+		},
+		{
+			"checksumSHA1": "5UJZd7Zyo40vk1OjMTy6LWjTcss=",
+			"path": "github.com/golang/protobuf/ptypes",
+			"revision": "1909bc2f63dc92bb931deace8b8312c4db72d12f",
+			"revisionTime": "2017-08-08T02:16:21Z"
+		},
+		{
+			"checksumSHA1": "Z4RIWIXH05QItZqVbmbONO9mWig=",
+			"path": "github.com/golang/protobuf/ptypes/any",
+			"revision": "1909bc2f63dc92bb931deace8b8312c4db72d12f",
+			"revisionTime": "2017-08-08T02:16:21Z"
+		},
+		{
+			"checksumSHA1": "Lx2JRhnmO66Lhj6p7UXnsPb+IQs=",
+			"path": "github.com/golang/protobuf/ptypes/duration",
+			"revision": "1909bc2f63dc92bb931deace8b8312c4db72d12f",
+			"revisionTime": "2017-08-08T02:16:21Z"
+		},
+		{
+			"checksumSHA1": "Z5Cpi8mr3kfpZ/CdmudThTWQ0Mo=",
+			"path": "github.com/golang/protobuf/ptypes/struct",
+			"revision": "1909bc2f63dc92bb931deace8b8312c4db72d12f",
+			"revisionTime": "2017-08-08T02:16:21Z"
+		},
+		{
+			"checksumSHA1": "+nsb2jDuP/5l2DO78dtU/jYB3G8=",
+			"path": "github.com/golang/protobuf/ptypes/timestamp",
+			"revision": "1909bc2f63dc92bb931deace8b8312c4db72d12f",
+			"revisionTime": "2017-08-08T02:16:21Z"
+		},
+		{
+			"checksumSHA1": "hIbmXmNbwyP44fi1hh6zJrMcYws=",
+			"path": "github.com/gorilla/mux",
+			"revision": "ac112f7d75a0714af1bd86ab17749b31f7809640",
+			"revisionTime": "2017-07-03T15:07:09Z"
+		},
+		{
+			"checksumSHA1": "K57GHrtsJxATkt4DKIutGAszeTM=",
+			"path": "github.com/mattn/go-colorable",
+			"revision": "6df6d4d004b64986bbb0d1b25945f42b44787e90",
+			"revisionTime": "2017-08-11T04:30:54Z"
+		},
+		{
+			"checksumSHA1": "U6lX43KDDlNOn+Z0Yyww+ZzHfFo=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "fc9e8d8ef48496124e79ae0df75490096eccf6fe",
+			"revisionTime": "2017-03-22T23:44:13Z"
+		},
+		{
+			"checksumSHA1": "bKMZjd2wPw13VwoE7mBeSv5djFA=",
+			"path": "github.com/matttproud/golang_protobuf_extensions/pbutil",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "rJab1YdNhQooDiBWNnt7TLWPyBU=",
+			"path": "github.com/pkg/errors",
+			"revision": "c605e284fe17294bda444b34710735b29d1a9d90",
+			"revisionTime": "2017-05-05T04:36:39Z"
+		},
+		{
+			"checksumSHA1": "zKKp5SZ3d3ycKe4EKMNT0BqAWBw=",
+			"origin": "github.com/shunfei/cronsun/src/github.com/stretchr/testify/vendor/github.com/pmezard/go-difflib/difflib",
+			"path": "github.com/pmezard/go-difflib/difflib",
+			"revision": "890a5c3458b43e6104ff5da8dfa139d013d77544",
+			"revisionTime": "2017-07-05T02:17:15Z"
+		},
+		{
+			"checksumSHA1": "GaPdHBvk5sAauMEs176sKyHo6m4=",
+			"path": "github.com/prometheus/client_golang/prometheus",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "DvwvOlPNAgRntBzt3b3OSRMS2N4=",
+			"path": "github.com/prometheus/client_model/go",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "cPfo+2TE9aD5gx9SMwou9/wdUfk=",
+			"path": "github.com/prometheus/common/bitbucket.org/ww/goautoneg",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "A+IrGX6L4o4tV3fbP0bJUCEFxbk=",
+			"path": "github.com/prometheus/common/expfmt",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "Jx0GXl5hGnO25s3ryyvtdWHdCpw=",
+			"path": "github.com/prometheus/common/model",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "W218eJZPXJG783fUr/z6IaAZyes=",
+			"path": "github.com/prometheus/procfs",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "ehRkDJisGCCSYdNgyvs1gSywSPE=",
+			"path": "github.com/rogpeppe/fastuuid",
+			"revision": "6724a57986aff9bff1a1770e9347036def7c89f6",
+			"revisionTime": "2015-01-06T09:31:45Z"
+		},
+		{
+			"checksumSHA1": "L9ddG8bKvrCbp04vVt/tJyEHX5I=",
+			"path": "github.com/rs/zerolog",
+			"revision": "46339da83a8e0a8aa7a0341950df866c8bbf26e8",
+			"revisionTime": "2017-08-12T23:16:31Z"
+		},
+		{
+			"checksumSHA1": "meBNqdDyqztkLgK2G+kSUf2eRUI=",
+			"path": "github.com/rs/zerolog/hlog",
+			"revision": "46339da83a8e0a8aa7a0341950df866c8bbf26e8",
+			"revisionTime": "2017-08-12T23:16:31Z"
+		},
+		{
+			"checksumSHA1": "AREhk6LKIp2I/4Njd756bqU6JSQ=",
+			"path": "github.com/rs/zerolog/internal/json",
+			"revision": "46339da83a8e0a8aa7a0341950df866c8bbf26e8",
+			"revisionTime": "2017-08-12T23:16:31Z"
+		},
+		{
+			"checksumSHA1": "FG7zw1b6t0e8ZaCI8oVr3jeoR2M=",
+			"path": "github.com/rs/zerolog/log",
+			"revision": "46339da83a8e0a8aa7a0341950df866c8bbf26e8",
+			"revisionTime": "2017-08-12T23:16:31Z"
+		},
+		{
+			"checksumSHA1": "zmC8/3V4ls53DJlNTKDZwPSC/dA=",
+			"path": "github.com/satori/go.uuid",
+			"revision": "5bf94b69c6b68ee1b541973bb8e1144db23a194b",
+			"revisionTime": "2017-03-21T23:07:31Z"
+		},
+		{
+			"checksumSHA1": "V8karzcTIpqi4yarvOCqXnGWbvo=",
+			"path": "github.com/sirupsen/logrus",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "EO+jcRet/AJ6IY3lBO8l8BLsZWg=",
+			"origin": "github.com/shunfei/cronsun/src/github.com/stretchr/testify/vendor/github.com/stretchr/objx",
+			"path": "github.com/stretchr/objx",
+			"revision": "890a5c3458b43e6104ff5da8dfa139d013d77544",
+			"revisionTime": "2017-07-05T02:17:15Z"
+		},
+		{
+			"checksumSHA1": "mGbTYZ8dHVTiPTTJu3ktp+84pPI=",
+			"path": "github.com/stretchr/testify/assert",
+			"revision": "890a5c3458b43e6104ff5da8dfa139d013d77544",
+			"revisionTime": "2017-07-05T02:17:15Z"
+		},
+		{
+			"checksumSHA1": "fg3TzS9/QK3wZbzei3Z6O8XPLHg=",
+			"path": "github.com/stretchr/testify/http",
+			"revision": "890a5c3458b43e6104ff5da8dfa139d013d77544",
+			"revisionTime": "2017-07-05T02:17:15Z"
+		},
+		{
+			"checksumSHA1": "o+jsS/rxceTym4M3reSPfrPxaio=",
+			"path": "github.com/stretchr/testify/mock",
+			"revision": "890a5c3458b43e6104ff5da8dfa139d013d77544",
+			"revisionTime": "2017-07-05T02:17:15Z"
+		},
+		{
+			"checksumSHA1": "7vs6dSc1PPGBKyzb/SCIyeMJPLQ=",
+			"path": "github.com/stretchr/testify/require",
+			"revision": "890a5c3458b43e6104ff5da8dfa139d013d77544",
+			"revisionTime": "2017-07-05T02:17:15Z"
+		},
+		{
+			"checksumSHA1": "9Zw986fuQM/hCoVd8vmHoSM+8sU=",
+			"path": "github.com/ugorji/go/codec",
+			"revision": "5efa3251c7f7d05e5d9704a69a984ec9f1386a40",
+			"revisionTime": "2017-06-20T10:48:52Z"
+		},
+		{
+			"checksumSHA1": "FvAtl0Eox5bkj9xk4yakMBPdrPw=",
+			"path": "go.pedge.io/lion",
+			"revision": "87958e8713f1fa138d993087133b97e976642159",
+			"revisionTime": "2017-04-22T23:48:32Z"
+		},
+		{
+			"checksumSHA1": "6QnBL7to5rYitCaEtSBONJMFdGQ=",
+			"path": "go.pedge.io/lion/current",
+			"revision": "87958e8713f1fa138d993087133b97e976642159",
+			"revisionTime": "2017-04-22T23:48:32Z"
+		},
+		{
+			"checksumSHA1": "QFjRENsAgCJItCcP2jIKR/D16no=",
+			"path": "go.pedge.io/lion/env",
+			"revision": "87958e8713f1fa138d993087133b97e976642159",
+			"revisionTime": "2017-04-22T23:48:32Z"
+		},
+		{
+			"checksumSHA1": "b6T9ubxmRG3ofrkWRbgXmyAqp3M=",
+			"path": "go.pedge.io/lion/gcloud",
+			"revision": "87958e8713f1fa138d993087133b97e976642159",
+			"revisionTime": "2017-04-22T23:48:32Z"
+		},
+		{
+			"checksumSHA1": "TPl0flgOZR5lDTk17wP97Fjcd4Y=",
+			"path": "go.pedge.io/lion/grpc",
+			"revision": "87958e8713f1fa138d993087133b97e976642159",
+			"revisionTime": "2017-04-22T23:48:32Z"
+		},
+		{
+			"checksumSHA1": "U3cVyuF0P2gCRte4x325mGkvbR4=",
+			"path": "go.pedge.io/lion/kit",
+			"revision": "87958e8713f1fa138d993087133b97e976642159",
+			"revisionTime": "2017-04-22T23:48:32Z"
+		},
+		{
+			"checksumSHA1": "J6eb1g2KyYvaT2UZ9zjmy+mefa4=",
+			"path": "go.pedge.io/lion/proto",
+			"revision": "87958e8713f1fa138d993087133b97e976642159",
+			"revisionTime": "2017-04-22T23:48:32Z"
+		},
+		{
+			"checksumSHA1": "HaTcOZiTWM6j54t1qJoHZpgBAHk=",
+			"path": "go.pedge.io/lion/syslog",
+			"revision": "87958e8713f1fa138d993087133b97e976642159",
+			"revisionTime": "2017-04-22T23:48:32Z"
+		},
+		{
+			"checksumSHA1": "hPOA+sVpPOK4rVp3vS9HGS1w0BQ=",
+			"path": "go.pedge.io/lion/tail",
+			"revision": "87958e8713f1fa138d993087133b97e976642159",
+			"revisionTime": "2017-04-22T23:48:32Z"
+		},
+		{
+			"checksumSHA1": "cyUT1aFXqZmLEIyXI/vFReOSTRA=",
+			"path": "go.pedge.io/lion/thrift",
+			"revision": "87958e8713f1fa138d993087133b97e976642159",
+			"revisionTime": "2017-04-22T23:48:32Z"
+		},
+		{
+			"checksumSHA1": "3IdEHJfBkeEE8guKA2tcA8Fv6eg=",
+			"path": "go.uber.org/atomic",
+			"revision": "70bd1261d36be490ebd22a62b385a3c5d23b6240",
+			"revisionTime": "2017-05-09T22:23:09Z"
+		},
+		{
+			"checksumSHA1": "JDGx7hehaQunZySwPs7yvdUs2m8=",
+			"path": "go.uber.org/multierr",
+			"revision": "3c4937480c32f4c13a875a1829af76c98ca3d40a",
+			"revisionTime": "2017-06-30T17:54:37Z"
+		},
+		{
+			"checksumSHA1": "Xtsvh+RmozDTBYAvE2eXpinCIz4=",
+			"path": "go.uber.org/zap",
+			"revision": "e68420e36ce87d08dc24bb74bfc316a0a57c5f7b",
+			"revisionTime": "2017-08-02T17:13:41Z"
+		},
+		{
+			"checksumSHA1": "HYo/9nwrY08NQA+2ItPOAH8IFW8=",
+			"path": "go.uber.org/zap/buffer",
+			"revision": "e68420e36ce87d08dc24bb74bfc316a0a57c5f7b",
+			"revisionTime": "2017-08-02T17:13:41Z"
+		},
+		{
+			"checksumSHA1": "MuxOAtZEsJitlWBzhmpm2vGiHok=",
+			"path": "go.uber.org/zap/internal/bufferpool",
+			"revision": "e68420e36ce87d08dc24bb74bfc316a0a57c5f7b",
+			"revisionTime": "2017-08-02T17:13:41Z"
+		},
+		{
+			"checksumSHA1": "uC0L9eCSAYcCWNC8udJk/t1vvIU=",
+			"path": "go.uber.org/zap/internal/color",
+			"revision": "e68420e36ce87d08dc24bb74bfc316a0a57c5f7b",
+			"revisionTime": "2017-08-02T17:13:41Z"
+		},
+		{
+			"checksumSHA1": "b80CJExrVpXu3SA1iCQ6uLqTn2c=",
+			"path": "go.uber.org/zap/internal/exit",
+			"revision": "e68420e36ce87d08dc24bb74bfc316a0a57c5f7b",
+			"revisionTime": "2017-08-02T17:13:41Z"
+		},
+		{
+			"checksumSHA1": "66VZR7l5jQfBlDLzV/b3p8+bzEo=",
+			"path": "go.uber.org/zap/zapcore",
+			"revision": "e68420e36ce87d08dc24bb74bfc316a0a57c5f7b",
+			"revisionTime": "2017-08-02T17:13:41Z"
+		},
+		{
+			"checksumSHA1": "1hYJRogmL4YhFCCrCZxlnxeoy9A=",
+			"path": "go.uber.org/zap/zaptest",
+			"revision": "e68420e36ce87d08dc24bb74bfc316a0a57c5f7b",
+			"revisionTime": "2017-08-02T17:13:41Z"
+		},
+		{
+			"checksumSHA1": "JeMr8O5BiG/SE9D7S9Ekt4vhE2U=",
+			"path": "go.uber.org/zap/zaptest/observer",
+			"revision": "e68420e36ce87d08dc24bb74bfc316a0a57c5f7b",
+			"revisionTime": "2017-08-02T17:13:41Z"
+		},
+		{
+			"checksumSHA1": "dr5+PfIRzXeN+l1VG+s0lea9qz8=",
+			"path": "golang.org/x/net/context",
+			"revision": "1c05540f6879653db88113bc4a2b70aec4bd491f",
+			"revisionTime": "2017-08-04T00:04:37Z"
+		},
+		{
+			"checksumSHA1": "CLeUeDDAFQGbUNyRIryrVXqkWf0=",
+			"path": "golang.org/x/net/http2",
+			"revision": "1c05540f6879653db88113bc4a2b70aec4bd491f",
+			"revisionTime": "2017-08-04T00:04:37Z"
+		},
+		{
+			"checksumSHA1": "ezWhc7n/FtqkLDQKeU2JbW+80tE=",
+			"path": "golang.org/x/net/http2/hpack",
+			"revision": "1c05540f6879653db88113bc4a2b70aec4bd491f",
+			"revisionTime": "2017-08-04T00:04:37Z"
+		},
+		{
+			"checksumSHA1": "g/Z/Ka0VgJESgQK7/SJCjm/aX0I=",
+			"path": "golang.org/x/net/idna",
+			"revision": "1c05540f6879653db88113bc4a2b70aec4bd491f",
+			"revisionTime": "2017-08-04T00:04:37Z"
+		},
+		{
+			"checksumSHA1": "UxahDzW2v4mf/+aFxruuupaoIwo=",
+			"path": "golang.org/x/net/internal/timeseries",
+			"revision": "1c05540f6879653db88113bc4a2b70aec4bd491f",
+			"revisionTime": "2017-08-04T00:04:37Z"
+		},
+		{
+			"checksumSHA1": "3xyuaSNmClqG4YWC7g0isQIbUTc=",
+			"path": "golang.org/x/net/lex/httplex",
+			"revision": "1c05540f6879653db88113bc4a2b70aec4bd491f",
+			"revisionTime": "2017-08-04T00:04:37Z"
+		},
+		{
+			"checksumSHA1": "u/r66lwYfgg682u5hZG7/E7+VCY=",
+			"path": "golang.org/x/net/trace",
+			"revision": "1c05540f6879653db88113bc4a2b70aec4bd491f",
+			"revisionTime": "2017-08-04T00:04:37Z"
+		},
+		{
+			"checksumSHA1": "MBmecV6tS+vsAHgwPiGWSU3jBoc=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "c84c1ab9fd18cdd4c23dd021c10f5f46dea95e46",
+			"revisionTime": "2017-08-11T22:05:22Z"
+		},
+		{
+			"checksumSHA1": "faFDXp++cLjLBlvsr+izZ+go1WU=",
+			"path": "golang.org/x/text/secure/bidirule",
+			"revision": "b19bf474d317b857955b12035d2c5acb57ce8b01",
+			"revisionTime": "2017-07-06T13:46:35Z"
+		},
+		{
+			"checksumSHA1": "ziMb9+ANGRJSSIuxYdRbA+cDRBQ=",
+			"path": "golang.org/x/text/transform",
+			"revision": "b19bf474d317b857955b12035d2c5acb57ce8b01",
+			"revisionTime": "2017-07-06T13:46:35Z"
+		},
+		{
+			"checksumSHA1": "KG+XZAbxdkpBm3Fa3bJ3Ylq8CKI=",
+			"path": "golang.org/x/text/unicode/bidi",
+			"revision": "b19bf474d317b857955b12035d2c5acb57ce8b01",
+			"revisionTime": "2017-07-06T13:46:35Z"
+		},
+		{
+			"checksumSHA1": "Anof4bt0AU+Sa3R8Rq0KBnlpbaQ=",
+			"path": "golang.org/x/text/unicode/norm",
+			"revision": "b19bf474d317b857955b12035d2c5acb57ce8b01",
+			"revisionTime": "2017-07-06T13:46:35Z"
+		},
+		{
+			"checksumSHA1": "vGfePfr0+weQUeTM/71mu+LCFuE=",
+			"path": "golang.org/x/time/rate",
+			"revision": "8be79e1e0910c292df4e79c241bb7e8f7e725959",
+			"revisionTime": "2017-04-24T23:28:54Z"
+		},
+		{
+			"checksumSHA1": "AvVpgwhxhJgjoSledwDtYrEKVE4=",
+			"path": "google.golang.org/genproto/googleapis/rpc/status",
+			"revision": "09f6ed296fc66555a25fe4ce95173148778dfa85",
+			"revisionTime": "2017-07-31T18:20:57Z"
+		},
+		{
+			"checksumSHA1": "nwfmMh930HtXA7u5HYomxSR3Ixg=",
+			"path": "google.golang.org/grpc",
+			"revision": "7657092a1303cc5a6fa3fee988d57c665683a4da",
+			"revisionTime": "2017-08-09T21:16:03Z"
+		},
+		{
+			"checksumSHA1": "/eTpFgjvMq5Bc9hYnw5fzKG4B6I=",
+			"path": "google.golang.org/grpc/codes",
+			"revision": "7657092a1303cc5a6fa3fee988d57c665683a4da",
+			"revisionTime": "2017-08-09T21:16:03Z"
+		},
+		{
+			"checksumSHA1": "XH2WYcDNwVO47zYShREJjcYXm0Y=",
+			"path": "google.golang.org/grpc/connectivity",
+			"revision": "7657092a1303cc5a6fa3fee988d57c665683a4da",
+			"revisionTime": "2017-08-09T21:16:03Z"
+		},
+		{
+			"checksumSHA1": "5ylThBvJnIcyWhL17AC9+Sdbw2E=",
+			"path": "google.golang.org/grpc/credentials",
+			"revision": "7657092a1303cc5a6fa3fee988d57c665683a4da",
+			"revisionTime": "2017-08-09T21:16:03Z"
+		},
+		{
+			"checksumSHA1": "2NbY9kmMweE4VUsruRsvmViVnNg=",
+			"path": "google.golang.org/grpc/grpclb/grpc_lb_v1",
+			"revision": "7657092a1303cc5a6fa3fee988d57c665683a4da",
+			"revisionTime": "2017-08-09T21:16:03Z"
+		},
+		{
+			"checksumSHA1": "ntHev01vgZgeIh5VFRmbLx/BSTo=",
+			"path": "google.golang.org/grpc/grpclog",
+			"revision": "7657092a1303cc5a6fa3fee988d57c665683a4da",
+			"revisionTime": "2017-08-09T21:16:03Z"
+		},
+		{
+			"checksumSHA1": "U9vDe05/tQrvFBojOQX8Xk12W9I=",
+			"path": "google.golang.org/grpc/internal",
+			"revision": "7657092a1303cc5a6fa3fee988d57c665683a4da",
+			"revisionTime": "2017-08-09T21:16:03Z"
+		},
+		{
+			"checksumSHA1": "hcuHgKp8W0wIzoCnNfKI8NUss5o=",
+			"path": "google.golang.org/grpc/keepalive",
+			"revision": "7657092a1303cc5a6fa3fee988d57c665683a4da",
+			"revisionTime": "2017-08-09T21:16:03Z"
+		},
+		{
+			"checksumSHA1": "N++Ur11m6Dq3j14/Hc2Kqmxroag=",
+			"path": "google.golang.org/grpc/metadata",
+			"revision": "7657092a1303cc5a6fa3fee988d57c665683a4da",
+			"revisionTime": "2017-08-09T21:16:03Z"
+		},
+		{
+			"checksumSHA1": "bYKw8OIjj/ybY68eGqy7zqq6qmE=",
+			"path": "google.golang.org/grpc/naming",
+			"revision": "7657092a1303cc5a6fa3fee988d57c665683a4da",
+			"revisionTime": "2017-08-09T21:16:03Z"
+		},
+		{
+			"checksumSHA1": "n5EgDdBqFMa2KQFhtl+FF/4gIFo=",
+			"path": "google.golang.org/grpc/peer",
+			"revision": "7657092a1303cc5a6fa3fee988d57c665683a4da",
+			"revisionTime": "2017-08-09T21:16:03Z"
+		},
+		{
+			"checksumSHA1": "53Mbn2VqooOk47EWLHHFpKEOVwE=",
+			"path": "google.golang.org/grpc/stats",
+			"revision": "7657092a1303cc5a6fa3fee988d57c665683a4da",
+			"revisionTime": "2017-08-09T21:16:03Z"
+		},
+		{
+			"checksumSHA1": "3Dwz4RLstDHMPyDA7BUsYe+JP4w=",
+			"path": "google.golang.org/grpc/status",
+			"revision": "7657092a1303cc5a6fa3fee988d57c665683a4da",
+			"revisionTime": "2017-08-09T21:16:03Z"
+		},
+		{
+			"checksumSHA1": "aixGx/Kd0cj9ZlZHacpHe3XgMQ4=",
+			"path": "google.golang.org/grpc/tap",
+			"revision": "7657092a1303cc5a6fa3fee988d57c665683a4da",
+			"revisionTime": "2017-08-09T21:16:03Z"
+		},
+		{
+			"checksumSHA1": "S0qdJtlMimKlOrJ4aZ/pxO5uVwg=",
+			"path": "google.golang.org/grpc/transport",
+			"revision": "7657092a1303cc5a6fa3fee988d57c665683a4da",
+			"revisionTime": "2017-08-09T21:16:03Z"
+		},
+		{
+			"checksumSHA1": "lxnYI7ISNsR6jZLOGRURNlUiSNs=",
+			"path": "gopkg.in/inconshreveable/log15.v2",
+			"revision": "b105bd37f74e5d9dc7b6ad7806715c7a2b83fd3f",
+			"revisionTime": "2015-09-21T21:38:54Z"
+		},
+		{
+			"checksumSHA1": "piw2kSgPAMwvuUVfiTO8Ih2a6QY=",
+			"path": "gopkg.in/inconshreveable/log15.v2/stack",
+			"revision": "b105bd37f74e5d9dc7b6ad7806715c7a2b83fd3f",
+			"revisionTime": "2015-09-21T21:38:54Z"
+		},
+		{
+			"checksumSHA1": "/hR7Dh3kAiDFl4NGSogz0ctxBkE=",
+			"path": "gopkg.in/inconshreveable/log15.v2/term",
+			"revision": "b105bd37f74e5d9dc7b6ad7806715c7a2b83fd3f",
+			"revisionTime": "2015-09-21T21:38:54Z"
+		},
+		{
+			"checksumSHA1": "NKFwDxnGXmFdKj9kMzavbsNKEgk=",
+			"path": "gopkg.in/mgo.v2",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "h2ZXb0NL7mE5Fj6fIRARNv68bA4=",
+			"path": "gopkg.in/mgo.v2/bson",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "CkCDTsyN2Lbj1cL8+oaYKoPpI9w=",
+			"path": "gopkg.in/mgo.v2/internal/sasl",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "+1WDRPaOphSCmRMxVPIPBV4aubc=",
+			"path": "gopkg.in/mgo.v2/internal/scram",
+			"revision": ""
+		}
+	],
+	"rootPath": "github.com/shunfei/cronsun"
+}
